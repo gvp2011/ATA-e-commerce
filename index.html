@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gadget Kings - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cal Sans', sans-serif;
+            background-color: #8398be;
+            margin: 0;
+            padding: 0;
+        }
+
+        .Heading {
+            background-color: #0062ad;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .Heading h1 {
+            margin: 0;
+        }
+
+        .Heading h4 {
+            margin: 10px 0;
+            color: #b4b4b4;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            background-color: #004d8c;
+            border-radius: 6px;
+        }
+
+        nav a:hover {
+            background-color: #ffffff;
+            color: #004d8c;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #ffffff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product {
+            flex: 1 1 30%;
+            margin: 10px;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin-top: 10px;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .product button {
+            background-color: #2abeeb;
+            color: white;
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .product button:hover {
+            background-color: #ffffff;
+            color: #2abeeb;
+            border: 1px solid #2abeeb;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Heading">
+        <h1>GADGET KINGS</h1>
+        <h4>We have discounts on all products!</h4>
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="index.html">Home</a>
+            <a href="founders.html">Founders</a>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Smartphone">
+                <h3>Smartphone X10</h3>
+                <p>Powerful and sleek with 128GB storage and 5G connectivity.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Smartwatch">
+                <h3>Smartwatch Pro</h3>
+                <p>Track fitness and receive notifications on the go.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41tp0JPPlmL.jpg" alt="Headphones">
+                <h3>Noise Cancelling Headphones</h3>
+                <p>Immersive sound with active noise cancellation.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKjCMToU0ORpSplDJyxyqAKzawvBRkUGulJA&s" alt="Laptop">
+                <h3>UltraSlim Laptop</h3>
+                <p>High performance in a lightweight design.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://assets.mofoprod.net/network/images/Samsung-GalaxyTablets_ec3qtp_BHsqtaH.original.jpg" alt="Tablet">
+                <h3>Tablet Z</h3>
+                <p>Perfect for entertainment and productivity on the go.</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
